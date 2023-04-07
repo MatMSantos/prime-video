@@ -1,0 +1,44 @@
+Divisão do código para React
+
+HEADER: componente header, tag <header>, class=header
+- componente icon* (logo prime video)
+- MENU PRIMARIO: tag <div>, class=primary-menu,
+	- lista de links* (Início, Loja, Canais, Categorias)
+	- componente button (seta de categorias)
+- MENU SECUNDARIO: tag <div>, class=secondary-menu, 
+	- componente button link* (botão "Experimente grátis")
+	- componente button link (botão de pesquisa)
+	- componente icon (avatar)
+	- componente button (seta do avatar)
+
+CONTAINER AREA 01: componente container, tag <div>, class=container
+- textos*
+- componente button link (botão "Já é Prime? Faça login")
+- componente button link (botão "Experimente 30 dias grátis*")
+
+CONTAINER AREA 02: componente container, tag <div>, class=container
+- textos
+- componente button link (fazer um map para os 9 canais)
+
+CONTAINER AREA 03: componente container
+- textos
+- componente button link (botão "Alugar filmes")
+
+CONTAINER AREA 04: componente container
+- componente icon (fazer um map para os 3 tópicos)
+- componente button link (fazer um map para os 3 tópicos)
+
+FOOTER
+- componente icon (logo prime video)
+- lista de links (Termos, Envie-nos comentários, Ajuda)
+- textos
+
+-------------------------------------------------------------------
+Elementos não especificados na lista
+
+* componente icon: tag <svg>, class=icon
+* lista de links: tag <ul> 
+* componente button link: tag <a>, class=button-link
+* componente button: tag <button>, class=button
+* textos: tags <h1>, <h2> e <p>
+
