@@ -1,0 +1,19 @@
+.container-landing {
+  background-image: linear-gradient(to right, black 40%, transparent 58%),
+          url(https://m.media-amazon.com/images/G/32/digital/video/merch/Other/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT3212.jpg);
+  .divider-wrapper {
+    margin: 11px auto 25px;
+    width: 44%;
+    border-bottom: 1px solid #fff;
+    line-height: .1em; 
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+
+  }
+}
