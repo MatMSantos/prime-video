@@ -20,6 +20,32 @@ export const ptBR = {
               trial: 'Experimente 30 dias grátis*'
             }
           }
+        },
+        channels: {
+          buttonLink: {
+            ariaLabel: {
+              adrenalina: 'Canal Adrenalina Pura',
+              discovery: 'Canal Discovery Plus',
+              imovision: 'Canal Reserva Imovision',
+              lionsgate: 'Canal Lionsgate Plus',
+              looke: 'Canal Looke',
+              mgm: 'Canal M G M',
+              paramount: 'Canal Paramount Plus',
+              premiere: 'Canal Premiere',
+              stingray: 'Canal Stingray'
+            }
+          }
+        },
+        store: {
+          text: {
+            subtitle: 'Loja Prime Video',
+            primary: 'Agora ainda mais filmes disponíveis para alugar, sem necessidade de assinatura Prime.'
+          },
+          buttonLink: {
+            label: {
+              rent: 'Alugar filmes'
+            }
+          }
         }
       },
       footer: {

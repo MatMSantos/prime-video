@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const ImageDownloadIcon = ({ className }) => 
+export const LogoLookeIcon = ({ className }) => 
 
-ImageDownloadIcon.propTypes = {
+LogoLookeIcon.propTypes = {
     className: PropTypes.string
 }

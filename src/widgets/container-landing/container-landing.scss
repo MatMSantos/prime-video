@@ -1,6 +1,36 @@
 .container-landing {
+  height: 600px;
+  padding-left: 100px;
+  padding-top: 80px;
   background-image: linear-gradient(to right, black 40%, transparent 58%),
-          url(https://m.media-amazon.com/images/G/32/digital/video/merch/Other/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT3212.jpg);
+    url(https://m.media-amazon.com/images/G/32/digital/video/merch/Other/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT3212.jpg);
+  
+  .subtitle {
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  .primary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    
+    width: 502px;
+    height: 108px;
+    
+    color: #FFFFFF;
+  }
+
+  .secondary {
+    font-weight: 400;
+    font-size: 14px;
+    
+    width: 486px;
+    height: 38px;
+    
+    color: #FFFFFF;
+  }
+
   .divider-wrapper {
     margin: 11px auto 25px;
     width: 44%;
@@ -14,6 +44,5 @@
     .right {
       float: right;
     }
-
   }
 }

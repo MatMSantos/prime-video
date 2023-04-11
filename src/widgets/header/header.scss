@@ -1,0 +1,84 @@
+.header {
+  background: #182029;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  height: 32px;
+  width: 100%;
+}
+
+.header__logo {
+  width: 104px;
+  height: 32px;
+  display: inline;
+  float: left;
+}
+
+.header__primary-menu {
+  display: inline;
+  float: left;
+}
+
+.header__items {
+  display: inline;
+  float: left;
+  margin: auto;
+}
+
+.link-item {
+  color: #E2E2E2;
+  display: inline;
+  float: left;
+  margin-right: 16px;
+}
+
+.toolbar__container {
+  display: inline;
+  float: right;
+}
+
+.toolbar__options {
+  display: inline;
+  float: right;
+}
+
+.toolbar__try-link a {
+  text-decoration: none;
+  background-color: #009ED9;
+  color: #FFFFFF;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  
+  width: 173px;
+  height: 40px;
+  
+  padding: 9px 16px;
+  border-radius: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+  border-style: solid;
+  border-color: #009ED9;
+}
+
+.toolbar__try-link a:hover, .link1 a:focus, .link1 a:active {
+  border-style: solid;
+  border-color: #eb8500;
+}
+
+.svg-icon.search-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.svg-icon.account-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}

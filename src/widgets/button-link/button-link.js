@@ -1,6 +1,6 @@
 import React, { PropTypes } from "react"
 
-import '/widgets/button-link/button-link.scss'
+import './button-link.scss'
 
 export const ButtonLink = ({
   textLabel,
@@ -13,9 +13,4 @@ export const ButtonLink = ({
      {textLabel}
    </a>
   )
-}
-
-ButtonLink.propTypes = {
-  textLabel: PropTypes.string,
-  to: PropTypes.string
 }
