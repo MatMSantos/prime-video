@@ -44,8 +44,13 @@ export const ChannelsContainer = () => {
       <p className="primary">
         {i18n("meta.home.containers.channels.text.primary")}
       </p>
-      <ul className="channels-colection">
-        <li className="channels-colection__item ">
+      <ul
+        aria-label={i18n(
+          "meta.home.containers.channels.buttonLink.ariaLabel.channelsCollection"
+        )}
+        className="channels-collection"
+      >
+        <li className="channels-collection__item ">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.paramount"
@@ -55,7 +60,7 @@ export const ChannelsContainer = () => {
             <LogoParamountIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.premiere"
@@ -65,7 +70,7 @@ export const ChannelsContainer = () => {
             <LogoPremiereIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.lionsgate"
@@ -75,7 +80,7 @@ export const ChannelsContainer = () => {
             <LogoLionsgateIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.discovery"
@@ -85,7 +90,7 @@ export const ChannelsContainer = () => {
             <LogoDiscoveryIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.mgm"
@@ -95,7 +100,7 @@ export const ChannelsContainer = () => {
             <LogoMGMIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.looke"
@@ -105,7 +110,7 @@ export const ChannelsContainer = () => {
             <LogoLookeIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.imovision"
@@ -115,7 +120,7 @@ export const ChannelsContainer = () => {
             <LogoImovisionIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.adrenalina"
@@ -125,7 +130,7 @@ export const ChannelsContainer = () => {
             <LogoAdrenalinaIcon className={className} />
           </ButtonLink>
         </li>
-        <li className="channels-colection__item">
+        <li className="channels-collection__item">
           <ButtonLink
             ariaLabel={i18n(
               "meta.home.containers.channels.buttonLink.ariaLabel.stingray"

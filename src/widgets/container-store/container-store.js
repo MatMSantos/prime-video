@@ -19,8 +19,10 @@ export const StoreContainer = () => {
       </p>
       <ButtonLink
         to={RENT_URL}
-        textLabel={i18n("meta.home.containers.store.buttonLink.label.rent")}
-      />
+        ariaLabel={i18n("meta.home.containers.store.buttonLink.label.rent")}
+      >
+        {i18n("meta.home.containers.store.buttonLink.label.rent")}
+      </ButtonLink>
     </section>
   );
 };

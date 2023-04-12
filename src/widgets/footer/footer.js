@@ -13,12 +13,11 @@ const COMMENTS_URL =
 const HELP_URL = "https://www.primevideo.com/help/ref=dvm_MLP_NA_help";
 
 const year = moment().format("YYYY");
-const className = "logo-icon";
 
 export const Footer = () => {
   return (
     <footer className="footer">
-      <LogoPrimeIcon className={className} />
+      <LogoPrimeIcon />
       <ul className="items">
         <li className="link">
           <a

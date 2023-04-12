@@ -24,17 +24,21 @@ export const LandingContainer = () => {
       </p>
       <ButtonLink
         to={SIGNIN_URL}
-        textLabel={i18n("meta.home.containers.landing.buttonLink.label.signIn")}
-      />
-      <div className="divider-wrapper">
+        ariaLabel={i18n("meta.home.containers.landing.buttonLink.label.signIn")}
+      >
+        {i18n("meta.home.containers.landing.buttonLink.label.signIn")}
+      </ButtonLink>
+      <div className="divider-wrapper" aria-hidden="true">
         <span className="left" />
         <div className="or-with-divider">ou</div>
         <span className="right" />
       </div>
       <ButtonLink
         to={TRIAL_URL}
-        textLabel={i18n("meta.home.containers.landing.buttonLink.label.trial")}
-      />
+        ariaLabel={i18n("meta.home.containers.landing.buttonLink.label.trial")}
+      >
+        {i18n("meta.home.containers.landing.buttonLink.label.trial")}
+      </ButtonLink>
     </section>
   );
 };
