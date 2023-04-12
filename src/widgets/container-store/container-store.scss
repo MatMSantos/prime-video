@@ -1,0 +1,24 @@
+.container-store {
+  height: 600px;
+  padding-left: 100px;
+  padding-top: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to left, black 40%, transparent 58%),
+    url(https://m.media-amazon.com/images/G/32/digital/video/merch/2023/MLP_BG_left_1440x675.jpg);
+  
+  .subtitle {
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  .primary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    
+    width: 502px;
+    height: 108px;
+    
+    color: #FFFFFF;
+  }
+}

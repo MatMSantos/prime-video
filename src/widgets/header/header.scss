@@ -1,84 +1,69 @@
 .header {
-  background: #182029;
+  background-color: #333333;
+  display: inline;
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 24px;
   padding-bottom: 24px;
   height: 32px;
   width: 100%;
-}
+  font-family: Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
+  color: white;
 
-.header__logo {
-  width: 104px;
-  height: 32px;
-  display: inline;
-  float: left;
-}
+  .logo-icon {
+    width: 104px;
+    height: 32px;
+    float: left;
+  }
 
-.header__primary-menu {
-  display: inline;
-  float: left;
-}
-
-.header__items {
-  display: inline;
-  float: left;
-  margin: auto;
-}
-
-.link-item {
-  color: #E2E2E2;
-  display: inline;
-  float: left;
-  margin-right: 16px;
-}
-
-.toolbar__container {
-  display: inline;
-  float: right;
-}
-
-.toolbar__options {
-  display: inline;
-  float: right;
-}
-
-.toolbar__try-link a {
-  text-decoration: none;
-  background-color: #009ED9;
-  color: #FFFFFF;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
   
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
+  li {
+    float: left;
+  }
   
-  width: 173px;
-  height: 40px;
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .navigation-bar {
+    display: inline;
+    float: left;
+  }
   
-  padding: 9px 16px;
-  border-radius: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+  .logo-icon {
+    width: 104px;
+    height: 32px;
+    float: left;
+  }
   
-  border-style: solid;
-  border-color: #009ED9;
+  .primary-menu {
+    display: inline;
+    float: left;
+    margin: auto;
+  }
+
+  .secondary-menu {
+    display: inline;
+    float: right;
+  }
+  
+  .link-item {
+    color: #E2E2E2;
+    display: inline;
+    float: left;
+    margin-right: 16px;
+  }
+  
+  
 }
 
-.toolbar__try-link a:hover, .link1 a:focus, .link1 a:active {
-  border-style: solid;
-  border-color: #eb8500;
-}
-
-.svg-icon.search-icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.svg-icon.account-icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
