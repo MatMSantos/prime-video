@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const LogoMGMIcon = ({ className }) => (
   <svg
@@ -9,6 +8,7 @@ export const LogoMGMIcon = ({ className }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
+    aria-hidden="true"
   >
     <rect width="122" height="70" fill="url(#pattern0)" />
     <defs>
@@ -32,7 +32,3 @@ export const LogoMGMIcon = ({ className }) => (
     </defs>
   </svg>
 );
-
-LogoMGMIcon.propTypes = {
-  className: PropTypes.string,
-};

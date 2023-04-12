@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-export const LogoLionsgateIcon = ({ className }) => (
+export const LogoLionsgateIcon = () => (
   <svg
     width="174"
     height="24"
@@ -9,6 +8,7 @@ export const LogoLionsgateIcon = ({ className }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
+    aria-hidden="true"
   >
     <rect width="174" height="24" fill="url(#pattern0)" />
     <defs>
@@ -32,6 +32,3 @@ export const LogoLionsgateIcon = ({ className }) => (
     </defs>
   </svg>
 );
-LogoLionsgateIcon.propTypes = {
-  className: PropTypes.string,
-};

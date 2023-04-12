@@ -44,80 +44,98 @@ export const ChannelsContainer = () => {
       <p className="primary">
         {i18n("meta.home.containers.channels.text.primary")}
       </p>
-      <div className="channels-colection">
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.paramount"
-          )}
-          to={PARAMOUNT_URL}
-        >
-          <LogoParamountIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.premiere"
-          )}
-          to={PREMIERE_URL}
-        >
-          <LogoPremiereIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.lionsgate"
-          )}
-          to={LIONSGATE_URL}
-        >
-          <LogoLionsgateIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.discovery"
-          )}
-          to={DISCOVERY_URL}
-        >
-          <LogoDiscoveryIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.mgm"
-          )}
-          to={MGM_URL}
-        >
-          <LogoMGMIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.looke"
-          )}
-          to={LOOKE_URL}
-        >
-          <LogoLookeIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.imovision"
-          )}
-          to={IMOVISION_URL}
-        >
-          <LogoImovisionIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.adrenalina"
-          )}
-          to={ADRENALINA_URL}
-        >
-          <LogoAdrenalinaIcon className={className} />
-        </ButtonLink>
-        <ButtonLink
-          aria-label={i18n(
-            "meta.home.containers.channels.buttonLink.ariaLabel.stingray"
-          )}
-          to={STINGRAY_URL}
-        >
-          <LogoStingrayIcon className={className} />
-        </ButtonLink>
-      </div>
+      <ul className="channels-colection">
+        <li className="channels-colection__item ">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.paramount"
+            )}
+            to={PARAMOUNT_URL}
+          >
+            <LogoParamountIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.premiere"
+            )}
+            to={PREMIERE_URL}
+          >
+            <LogoPremiereIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.lionsgate"
+            )}
+            to={LIONSGATE_URL}
+          >
+            <LogoLionsgateIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.discovery"
+            )}
+            to={DISCOVERY_URL}
+          >
+            <LogoDiscoveryIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.mgm"
+            )}
+            to={MGM_URL}
+          >
+            <LogoMGMIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.looke"
+            )}
+            to={LOOKE_URL}
+          >
+            <LogoLookeIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.imovision"
+            )}
+            to={IMOVISION_URL}
+          >
+            <LogoImovisionIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.adrenalina"
+            )}
+            to={ADRENALINA_URL}
+          >
+            <LogoAdrenalinaIcon className={className} />
+          </ButtonLink>
+        </li>
+        <li className="channels-colection__item">
+          <ButtonLink
+            ariaLabel={i18n(
+              "meta.home.containers.channels.buttonLink.ariaLabel.stingray"
+            )}
+            to={STINGRAY_URL}
+          >
+            <LogoStingrayIcon className={className} />
+          </ButtonLink>
+        </li>
+      </ul>
     </section>
   );
 };
