@@ -1,9 +1,10 @@
-Dado que CMD + F5 = VO, em que 
-    CMD = tecla command,
-    F5 = tecla F5,
+Dado que VO = control+option
 
-Utilize os comandos a seguir para navegar no prime-video:
-- Ativar Voice Over: VO;
-- Desativar Voice Over: VO + (F5+F5)
-- Desativar interagir automaticamente: VO + Maiúsculas + Seta Direita ou Seta Esquerda
-- Desativar Navegação Rápida: Maiúsculas + Seta Direita ou Seta Esquerda
+1. Ativar Voice Over (CMD+F5)
+2. Navegar até a viewport do Prime Video (VO+Seta para direita)
+3. Chegando na veiwport, começar a leitura (VO+A)
+
+
+OBS.: 
+- Avançar na leitura (VO+Seta para direita)
+- Voltar na leitura (VO+Seta para esquerda)

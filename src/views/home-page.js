@@ -4,10 +4,12 @@ import { ChannelsContainer } from "../widgets/container-channels/container-chann
 import { StoreContainer } from "../widgets/container-store/container-store";
 import { BenefitsContainer } from "../widgets/container-benefits/container-benefits";
 import { Footer } from "../widgets/footer/footer";
+import { Helmet } from "react-helmet";
 
 export const HomePage = () => {
   return (
     <div className="home-page">
+      <Helmet htmlAttributes={{ lang: "pt-BR" }} />
       <NavigationBar></NavigationBar>
       <LandingContainer></LandingContainer>
       <ChannelsContainer></ChannelsContainer>

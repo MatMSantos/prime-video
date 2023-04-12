@@ -1,12 +1,13 @@
 import React from "react";
 
-export const ArrowIcon = ({ className }) => (
+export const ArrowIcon = () => (
   <svg
     width="8"
     height="5"
     viewBox="0 0 8 5"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
   >
     <path d="M4 5L0.535898 0.5H7.4641L4 5Z" fill="#D9D9D9" />
   </svg>

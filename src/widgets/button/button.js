@@ -2,17 +2,17 @@ import "./button.scss";
 
 export const Button = ({
   ariaLabel,
+  ariaExpanded,
+  ariaHasPopUp,
   children,
-  expanded,
-  hasPopUp,
   onClick,
 }) => {
   return (
     <button
       className="button"
       aria-label={ariaLabel}
-      aria-expanded={expanded}
-      aria-haspopup={hasPopUp}
+      aria-expanded={ariaExpanded}
+      aria-haspopup={ariaHasPopUp}
       onClick={onClick}
     >
       {children}

@@ -12,6 +12,7 @@ export const LogoPrimeIcon = () => (
     height="32px"
     viewBox="0 0 800.3 246.3"
     xmlSpace="preserve"
+    aria-hidden="true"
   >
     <title>Página inicial do Prime Video</title>
     <g id="Layer_2_1_">
