@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const AvatarIcon = ({ className }) => (
   <svg
@@ -11,8 +10,8 @@ export const AvatarIcon = ({ className }) => (
   >
     <circle cx="28" cy="28" r="28" fill="#182029" />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M28 0C12.5591 0 0 12.525 0 27.9807C0 43.4591 12.5591 56 28 56C43.4409 56 56 43.4591 56 27.9807C56 12.5261 43.4409 0 28
         0ZM28.2983 13.383C32.2387 13.383 35.398 16.5785 35.398 20.522C35.398 24.4656 32.2387 27.6217 28.2983 27.6217C24.3578 
         27.6217 21.1792 24.466 21.1792 20.522C21.1792 16.5785 24.358 13.383 28.2983 13.383ZM28.4972 29.9091C37.6649 30.0591 
@@ -22,6 +21,3 @@ export const AvatarIcon = ({ className }) => (
     />
   </svg>
 );
-AvatarIcon.propTypes = {
-  className: PropTypes.string,
-};

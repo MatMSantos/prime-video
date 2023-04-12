@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-export const LogoPrimeIcon = ({ className }) => (
+export const LogoPrimeIcon = () => (
   <svg
     version="1.1"
     id="Layer_1"
@@ -14,7 +13,7 @@ export const LogoPrimeIcon = ({ className }) => (
     viewBox="0 0 800.3 246.3"
     xmlSpace="preserve"
   >
-    <title>Prime Video Logo</title>
+    <title>Página inicial do Prime Video</title>
     <g id="Layer_2_1_">
       <g id="Ebene_1">
         <path
@@ -145,7 +144,3 @@ export const LogoPrimeIcon = ({ className }) => (
     </g>
   </svg>
 );
-
-LogoPrimeIcon.propTypes = {
-  className: PropTypes.string,
-};

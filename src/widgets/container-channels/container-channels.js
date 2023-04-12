@@ -45,31 +45,76 @@ export const ChannelsContainer = () => {
         {i18n("meta.home.containers.channels.text.primary")}
       </p>
       <div className="channels-colection">
-        <ButtonLink to={PARAMOUNT_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.paramount"
+          )}
+          to={PARAMOUNT_URL}
+        >
           <LogoParamountIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={PREMIERE_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.premiere"
+          )}
+          to={PREMIERE_URL}
+        >
           <LogoPremiereIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={LIONSGATE_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.lionsgate"
+          )}
+          to={LIONSGATE_URL}
+        >
           <LogoLionsgateIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={DISCOVERY_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.discovery"
+          )}
+          to={DISCOVERY_URL}
+        >
           <LogoDiscoveryIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={MGM_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.mgm"
+          )}
+          to={MGM_URL}
+        >
           <LogoMGMIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={LOOKE_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.looke"
+          )}
+          to={LOOKE_URL}
+        >
           <LogoLookeIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={IMOVISION_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.imovision"
+          )}
+          to={IMOVISION_URL}
+        >
           <LogoImovisionIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={ADRENALINA_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.adrenalina"
+          )}
+          to={ADRENALINA_URL}
+        >
           <LogoAdrenalinaIcon className={className} />
         </ButtonLink>
-        <ButtonLink to={STINGRAY_URL}>
+        <ButtonLink
+          aria-label={i18n(
+            "meta.home.containers.channels.buttonLink.ariaLabel.stingray"
+          )}
+          to={STINGRAY_URL}
+        >
           <LogoStingrayIcon className={className} />
         </ButtonLink>
       </div>

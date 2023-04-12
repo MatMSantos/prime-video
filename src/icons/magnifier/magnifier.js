@@ -1,15 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const MagnifierIcon = ({ className }) => (
+export const MagnifierIcon = () => (
   <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    aria-hidden="true"
-    className={className}
   >
     <path
       d="M37.7126 40C37.1487 40 36.5217 39.7487 36.0833 39.3084L20.478 23.6541C18.2218 25.2258 15.6522 26.0432 13.02 26.0432C9.69836 26.0432 
