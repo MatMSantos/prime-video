@@ -17,7 +17,7 @@ const year = moment().format("YYYY");
 export const Footer = () => {
   return (
     <footer className="footer">
-      <LogoPrimeIcon />
+      <LogoPrimeIcon id=""/>
       <ul className="items">
         <li className="link">
           <a

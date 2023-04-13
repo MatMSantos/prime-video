@@ -1,0 +1,15 @@
+.user_avatar_toggle {
+    display: flex;
+    align-items: center;
+    
+    &__picture {
+        margin: 0;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 28px;
+        right: 35px;
+    }
+
+}

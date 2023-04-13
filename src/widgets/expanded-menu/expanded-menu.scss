@@ -1,24 +1,33 @@
 .expanded-menu {
-    position: absolute;
-    height: 280px;
-    width: 296px;
-    left: 40px;
-    top: 48px;
-    padding: 24px;
-    background: #191B22;
-    border-radius: 8px;
-    list-style-type: none;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: absolute;
+  height: fit-content;
+  width: 296px;
+  right: 80px;
+  top: 100px;
   
-    .login, .help, .watch {
-      color: white;
-      text-decoration: none;
-    }
-  
-    #watch {
-      color: white;
-      text-decoration: none;
-    }
+  padding: 24px;
+  background: #191B22;
+  border-radius: 8px;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  .login, .help, .watch, .subscribe {
+    color: white;
+    text-decoration: none;
   }
+
+  #watch {
+    color: white;
+    text-decoration: none;
+  }
+
+  .subscribe {
+
+  }
+}

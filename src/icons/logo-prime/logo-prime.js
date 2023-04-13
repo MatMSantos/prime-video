@@ -1,4 +1,5 @@
 import React from "react";
+import "./logo-prime.scss"
 
 export const LogoPrimeIcon = () => (
   <svg
