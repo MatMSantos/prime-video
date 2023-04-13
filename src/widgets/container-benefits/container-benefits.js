@@ -11,7 +11,7 @@ export const BenefitsContainer = () => {
   return (
     <section className="benefits-container">
       <ImageWatchIcon></ImageWatchIcon>
-      <h3 className="subtitle">
+      <h3 className="subtitle" id="">
         {i18n("meta.home.containers.benefits.text.watch.subtitle")}
       </h3>
       <p className="primary">

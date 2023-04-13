@@ -56,6 +56,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.paramount"
             )}
             to={PARAMOUNT_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoParamountIcon className={className} />
           </ButtonLink>
@@ -66,6 +67,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.premiere"
             )}
             to={PREMIERE_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoPremiereIcon className={className} />
           </ButtonLink>
@@ -76,6 +78,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.lionsgate"
             )}
             to={LIONSGATE_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoLionsgateIcon className={className} />
           </ButtonLink>
@@ -86,6 +89,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.discovery"
             )}
             to={DISCOVERY_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoDiscoveryIcon className={className} />
           </ButtonLink>
@@ -96,6 +100,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.mgm"
             )}
             to={MGM_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoMGMIcon className={className} />
           </ButtonLink>
@@ -106,6 +111,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.looke"
             )}
             to={LOOKE_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoLookeIcon className={className} />
           </ButtonLink>
@@ -116,6 +122,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.imovision"
             )}
             to={IMOVISION_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoImovisionIcon className={className} />
           </ButtonLink>
@@ -126,6 +133,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.adrenalina"
             )}
             to={ADRENALINA_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoAdrenalinaIcon className={className} />
           </ButtonLink>
@@ -136,6 +144,7 @@ export const ChannelsContainer = () => {
               "meta.home.containers.channels.buttonLink.ariaLabel.stingray"
             )}
             to={STINGRAY_URL}
+            divId={"button-link-channel-wrapper"}
           >
             <LogoStingrayIcon className={className} />
           </ButtonLink>

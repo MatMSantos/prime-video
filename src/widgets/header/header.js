@@ -57,6 +57,8 @@ export const NavigationBar = () => {
           <ButtonLink
             ariaLabel={i18n("meta.home.header.ariaLabel.search")}
             to={SEARCH_URL}
+            divId={"button-link-search-wrapper"}
+            anchorId={"button-link-search-anchor"}
           >
             <MagnifierIcon></MagnifierIcon>
           </ButtonLink>

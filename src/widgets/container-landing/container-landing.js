@@ -19,26 +19,30 @@ export const LandingContainer = () => {
       <p className="primary">
         {i18n("meta.home.containers.landing.text.primary")}
       </p>
-      <p className="secondary">
-        {i18n("meta.home.containers.landing.text.secondary")}
-      </p>
       <ButtonLink
         to={SIGNIN_URL}
         ariaLabel={i18n("meta.home.containers.landing.buttonLink.label.signIn")}
+        divId={"button-link-login-wrapper"}
+        anchorId={"button-link-login-anchor"}
       >
         {i18n("meta.home.containers.landing.buttonLink.label.signIn")}
       </ButtonLink>
       <div className="divider-wrapper" aria-hidden="true">
-        <span className="left" />
+        <hr className="left" />
         <div className="or-with-divider">ou</div>
-        <span className="right" />
+        <hr className="right" />
       </div>
       <ButtonLink
         to={TRIAL_URL}
         ariaLabel={i18n("meta.home.containers.landing.buttonLink.label.trial")}
+        divId={"button-link-trial-wrapper"}
+        anchorId={"button-link-trial-anchor"}
       >
         {i18n("meta.home.containers.landing.buttonLink.label.trial")}
       </ButtonLink>
+      <p className="secondary">
+        {i18n("meta.home.containers.landing.text.secondary")}
+      </p>
     </section>
   );
 };

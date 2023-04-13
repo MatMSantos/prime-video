@@ -1,0 +1,45 @@
+.button-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+// 'Login', 'Trial' and 'Rent' Buttons
+#button-link-login-wrapper, #button-link-trial-wrapper, #button-link-store-wrapper {
+    background-color: #009ED9;
+    height: 40px;
+    width: 272px;
+    padding: 9px 16px;
+    gap: 8px;
+    border-radius: 4px;
+}
+#button-link-login-wrapper, #button-link-trial-wrapper {
+    margin-left: 100px;
+}
+#button-link-store-wrapper {
+    margin-left: 1160px;
+}
+#button-link-login-anchor, #button-link-trial-anchor, #button-link-store-anchor {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+// Para ajudar no posicionamento do ContainerLanding
+#button-link-trial-wrapper {
+    margin-bottom: 48px;
+}
+
+// 'Magnifier' Button
+#button-link-search-wrapper {
+    width: 40px;
+    height: 40px;
+}
+
+#button-link-channel-wrapper {
+    background-color: #009ED9;
+    height: 176px;
+    width: 256px;
+    padding: 9px 16px;
+    border-radius: 8px;
+}

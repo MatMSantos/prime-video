@@ -35,7 +35,7 @@ export const ptBR = {
             primary:
               "Assista a Amazon Originais premiados e tenha frete grátis em diversos produtos. Com o plano anual você paga o equivalente a R$ 9,92 por mês (R$119 por ano). Aproveite!",
             secondary:
-              "Após 30 dias, o Amazon Prime é renovado automaticamente por R$14,90 por mês ou R$119 por ano. Cancele a qualquer momento.",
+              "*Após 30 dias, o Amazon Prime é renovado automaticamente por R$14,90 por mês ou R$119 por ano. Cancele a qualquer momento.",
           },
           buttonLink: {
             label: {

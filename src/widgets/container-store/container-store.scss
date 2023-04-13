@@ -1,23 +1,33 @@
 .container-store {
-  height: 600px;
-  padding-left: 100px;
-  padding-top: 80px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 616px;
+
+  background: no-repeat;
+  background-position: left;
+  background-size: 100%;
   background-image: linear-gradient(to left, black 40%, transparent 58%),
     url(https://m.media-amazon.com/images/G/32/digital/video/merch/2023/MLP_BG_left_1440x675.jpg);
   
+  .subtitle, .primary {
+    margin-left: 1160px;
+  }
+  
   .subtitle {
+    margin-top: 0;
+    padding-top: 170px;
     font-weight: 400;
+    font-size: 40px;
     color: #FFFFFF;
   }
 
   .primary {
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     
-    width: 502px;
-    height: 108px;
+    width: 688px;
+    padding-bottom: 65px;
     
     color: #FFFFFF;
   }

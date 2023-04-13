@@ -20,6 +20,8 @@ export const StoreContainer = () => {
       <ButtonLink
         to={RENT_URL}
         ariaLabel={i18n("meta.home.containers.store.buttonLink.label.rent")}
+        divId={"button-link-store-wrapper"}
+        anchorId={"button-link-store-anchor"}
       >
         {i18n("meta.home.containers.store.buttonLink.label.rent")}
       </ButtonLink>

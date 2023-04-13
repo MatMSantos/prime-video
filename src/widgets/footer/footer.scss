@@ -1,15 +1,18 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background-color: #182029;
-  height: 94px;
+  height: 126px;
   width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   .logo {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    margin: 0;
+    padding-bottom: 24px;
   }
 
   .items {
@@ -22,14 +25,14 @@
   .link {
     color: #009ED9;
     display: inline;
-    float: left;
-    margin-right: 16px;
+  }
+
+  .a {
+    text-decoration: none;
+    color: white;
   }
 
   .text {
-    margin: auto;
-    display: flex;
-    justify-content: center;
     color: #FFFFFF;
   }
 }
