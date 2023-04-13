@@ -1,4 +1,5 @@
 import { NavigationBar } from "../widgets/header/header";
+import { ExpandedMenu } from "../widgets/expanded-menu/expanded-menu";
 import { LandingContainer } from "../widgets/container-landing/container-landing";
 import { ChannelsContainer } from "../widgets/container-channels/container-channels";
 import { StoreContainer } from "../widgets/container-store/container-store";
@@ -9,6 +10,7 @@ export const HomePage = () => {
   return (
     <div className="home-page">
       <NavigationBar></NavigationBar>
+      <ExpandedMenu></ExpandedMenu>
       <LandingContainer></LandingContainer>
       <ChannelsContainer></ChannelsContainer>
       <StoreContainer></StoreContainer>

@@ -8,9 +8,6 @@ export const ptBR = {
           store: "Loja",
           channels: "Canais",
           categories: "Categorias",
-          login: "Fazer login",
-          help: "Ajuda",
-          watch: "Assista de onde quiser",
         },
         ariaLabel: {
           home: "Início",
@@ -23,9 +20,6 @@ export const ptBR = {
           search: "Pesquisar",
           avatar: "Avatar",
           avatarAlt: "Avatar do Usuário",
-          login: "Fazer login",
-          help: "Ajuda",
-          watch: "Assista de onde quiser",
         },
       },
       containers: {
@@ -107,6 +101,14 @@ export const ptBR = {
           comments: "Envie-nos comentários",
           help: "Ajuda",
           terms: "Termos e aviso de privacidade",
+        },
+      },
+      expandedMenu: {
+        text: {
+          login: "Fazer login",
+          help: "Ajuda",
+          watch: "Assista de onde quiser",
+          subscribe: "Assine já",
         },
       },
     },

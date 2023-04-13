@@ -2,7 +2,7 @@ import React from "react";
 
 export const AvatarIcon = () => (
   <svg
-    class="user-picture-icon"
+    className="user-picture-icon"
     width="40"
     height="40"
     xmlns="http://www.w3.org/2000/svg"
