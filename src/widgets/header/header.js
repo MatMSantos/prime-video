@@ -3,6 +3,8 @@ import i18n from "../../lib/i18n";
 
 import { ButtonLink } from "../button-link/button-link";
 import { Button } from "../button/button";
+import { ExpandedMenu } from "../expanded-menu/expanded-menu";
+
 import { LogoPrimeIcon } from "../../icons/logo-prime/logo-prime";
 import { MagnifierIcon } from "../../icons/magnifier/magnifier";
 
@@ -68,6 +70,7 @@ export const NavigationBar = () => {
               ariaExpanded={false}
             >
               <Toggle></Toggle>
+              <ExpandedMenu></ExpandedMenu>
             </Button>
           </div>
         </div>
