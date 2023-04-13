@@ -33,8 +33,13 @@ export const ExpandedMenu = () => {
           {i18n("meta.home.expandedMenu.text.watch")}
         </a>
       </li>
+      <div className="divider-wrapper" aria-hidden="true">
+        <hr className="left" />
+        <div className="or-with-divider">ou</div>
+        <hr className="right" />
+      </div>
       <li className="expanded-menu__subscribe">
-        <ButtonLink anchorId={"subscribe"} to={SUBSCRIBE_URL}>
+        <ButtonLink divId={"button-link-subscribe-wrapper"} anchorId={"button-link-subscribe-anchor"} to={SUBSCRIBE_URL}>
           {i18n("meta.home.expandedMenu.text.subscribe")}
         </ButtonLink>
       </li>

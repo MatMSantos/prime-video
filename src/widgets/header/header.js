@@ -70,6 +70,7 @@ export const NavigationBar = () => {
               ariaExpanded={false}
             >
               <Toggle></Toggle>
+              <ExpandedMenu></ExpandedMenu>
             </Button>
           </div>
         </div>
